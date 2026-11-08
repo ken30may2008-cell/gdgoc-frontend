@@ -1,16 +1,41 @@
-# React + Vite
+# GDGoC UGM Frontend Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend web application for the **Google Developer Groups on Campus (GDGoC) Universitas Gadjah Mada** community, built according to Google's design standards. It features Live API integration, advanced frontend logic, and robust state management (Loading, Error, and Empty State Fallbacks).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Important Links
+- **Live Demo (Vercel):** [https://gdgoc-frontend-five.vercel.app/](https://gdgoc-ugm-frontend.vercel.app) *(Update with your actual Vercel URL)*
+- **GitHub Repository:** [https://github.com/ken30may2008-cell/gdgoc-frontend.git](https://github.com/ken30may2008-cell/gdgoc-frontend)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Tech Stack & Tools
+- **Framework:** React (Vite)
+- **Routing:** React Router DOM (Single Page Application / SPA)
+- **Styling:** Tailwind CSS
+- **Typography:** Google Sans (CDN Integration)
+- **Deployment:** Vercel
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Key Features
+1. **Landing & Overview Pages:** Responsive landing page with precise typography alongside an interactive overview section.
+2. **Live API Integration:** Dynamically fetches data from the official community endpoint (`https://gdgoc-ugm-api.vercel.app/api/tracks`).
+3. **Advanced Frontend Logic & States:**
+   - **Loading State:** Smooth spinner animation while fetching data from the server.
+   - **Error State:** Custom alert card for handling network failures or broken endpoints.
+   - **Empty State Fallback:** Dedicated fallback UI with a reset button when search results return no items.
+   - **Real-time Search Filter:** Instantly filters learning tracks based on user input.
+4. **SPA Routing Optimization:** Includes a `vercel.json` configuration to prevent 404 Not Found errors on Vercel.
+
+---
+
+## ⚙️ Setup Instructions (Local Development)
+
+Follow these steps to run the project locally on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/ken30may2008-cell/gdgoc-frontend.git](https://github.com/ken30may2008-cell/gdgoc-frontend.git)
+   cd gdgoc-frontend
