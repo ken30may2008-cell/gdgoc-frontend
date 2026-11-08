@@ -144,9 +144,12 @@ export default function Overview() {
                         alt={track.title} 
                         className="absolute left-0 top-0 h-auto w-full object-cover object-top" 
                       />
-                    </div>
+                    </div>  
                     <div className="space-y-3 p-6 flex-grow flex flex-col justify-between">
                       <div>
+                        <p className="text-[10px] font-medium uppercase tracking-wide text-[#1967D2]">
+                          {track.name}
+                        </p>
                         <p className="text-[10px] font-medium uppercase tracking-wide text-[#1967D2]">
                           {track.tagline || track.category || "Explore the why"}
                         </p>
