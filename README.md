@@ -5,7 +5,7 @@ A frontend web application for the **Google Developer Groups on Campus (GDGoC) U
 ---
 
 ##  Important Links
--**Live Demo (Vercel):** [https://gdgoc-frontend-five.vercel.app/](https://gdgoc-ugm-frontend.vercel.app) i dont know why but it can only be accessed buy copy the link and paste it on the browser. if just directly click the link, it would be erroe 404
+-**Live Demo (Vercel):** [https://gdgoc-frontend-five.vercel.app/](https://gdgoc-ugm-frontend.vercel.app) i dont know why but it can only be accessed by copying the link and paste it on the browser. if just directly click the link, it would be erroe 404
 - **GitHub Repository:** [https://github.com/ken30may2008-cell/gdgoc-frontend.git](https://github.com/ken30may2008-cell/gdgoc-frontend)
 
 ---
