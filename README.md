@@ -31,7 +31,7 @@ A frontend web application for the **Google Developer Groups on Campus (GDGoC) U
 
 ---
 
-## ⚙️ Setup Instructions (Local Development)
+##  Setup Instructions (Local Development)
 
 Follow these steps to run the project locally on your machine:
 
